@@ -260,7 +260,7 @@ ul li {
 	$Banner
 ========================================================================== */
 .banner {
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/xuro-bg.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -303,9 +303,12 @@ ul li {
   -webkit-box-shadow: 0 0 0 1px #fff;
   box-shadow: 0 0 0 1px #fff;
   min-height: 350px;
+  max-height: 350px;
   overflow: hidden;
   position: relative;
-  visibility: hidden; }
+  visibility: hidden;
+}
+
   .work .overlay {
     background: rgba(232, 69, 69, 0.9);
     height: 100%;
